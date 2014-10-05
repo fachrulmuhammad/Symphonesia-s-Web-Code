@@ -1,0 +1,38 @@
+.multipage_nav { border-top:1px solid #CCC; padding-top:10px;}
+.multipage_nav a { font-weight: bold; display:block; }
+.multipage_nav .multipage_next { float:right;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;		
+}
+
+.multipage_nav .multipage_back { 
+    color: black;
+	float:left;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;		
+}
+
+.multipage_nav .submit { 
+	font-size: 30px;
+}
+
+.multipage_nav .multipage_state { display: block; text-align:center; width:100px; margin-left:auto;margin-right:auto; font-size:18px;}
+.multipage fieldset { border:0px; padding:10px; margin:0px; }
+
+div.clearer{
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height:0;
+    border-width:0;
+    margin:0;
+    padding:0;
+}
+
+ul.multipage_tabs { list-style-type: none; margin:0px; padding:0px; border-bottom:1px solid #CCC; margin-bottom:20px;}
+ul.multipage_tabs li { display:block; float: left; margin-right:20px;}
+ul.multipage_tabs li a { display:block; padding:10px; }
+ul.multipage_tabs li.active { background: #CCC; } 
